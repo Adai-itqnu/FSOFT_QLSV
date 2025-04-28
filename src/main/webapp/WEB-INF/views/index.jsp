@@ -3,6 +3,8 @@
 <html>
 <head>
     <title>Trang Chủ</title>
+     <!-- Bootstrap CSS -->
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <h2>Chào mừng đến với Hệ thống Quản lý Sinh viên</h2>

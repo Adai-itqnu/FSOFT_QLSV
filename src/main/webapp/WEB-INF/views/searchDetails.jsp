@@ -4,6 +4,9 @@
 <html>
 <head>
     <title>Tìm Kiếm Chi Tiết</title>
+     <!-- Bootstrap CSS -->
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
+    
     <style>
         body {
             font-family: Arial, sans-serif;

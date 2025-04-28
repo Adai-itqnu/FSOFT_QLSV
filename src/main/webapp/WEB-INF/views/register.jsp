@@ -5,6 +5,10 @@
 <html>
 <head>
     <title>Đăng Ký Sinh Viên</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -83,7 +87,7 @@
         </c:forEach>
     </select><br/>
     <label for="ngayTN">Ngày Tốt Nghiệp (yyyy-MM-dd):</label>
-    <input type="text" id="ngayTN" name="ngayTN" required/><br/>
+    <input type="date" id="ngayTN" name="ngayTN" required/>
 
     <input type="submit" value="Đăng Ký"/>
 </form>
